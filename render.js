@@ -1,7 +1,7 @@
 const Renderer = function () {
   const renderPosts = function (posts) {
     $("#posts").html("");
-
+    
     for (let post of posts) {
       $("#posts").append(
         `<div class="post" id=${post.id} data-id="${post.id}"> ${post.text}

@@ -20,7 +20,6 @@ $("body").on("click", ".delete-post", function () {
   const postId = postElement.data().id;
   tweeter.removeComment();
   tweeter.removePost(postId);
-
   render();
 });
 
